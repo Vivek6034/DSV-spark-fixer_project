@@ -248,7 +248,7 @@ input[type="submit"]:hover {
     color: white;
     height: 600px;
     align-items: center;
-    width: 90%;
+    width: 100%;
     border-radius: 0px 20px 0px 20px;
     background-image: url(./assets/cart-bg.jpg);
     background-size: cover;
