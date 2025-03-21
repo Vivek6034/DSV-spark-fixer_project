@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(./assets/order-details.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            /* background-color: #f8f8f8; */
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        #order-details, #all_booking {
+            background-color: #cc0000;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .order-box, .cart-item {
+            background: #e7e7e7;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .order-box:hover, .cart-item:hover {
+            transform: translateY(-5px);
+        }
+
+        h2, h3 {
+            color: #444;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+
+        button {
+            background-color: #ff4d4d;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #cc0000;
+        }
+
+        input[type="text"], input[type="submit"] {
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .cart-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #editfrm {
+            margin-top: 20px;
+        }
+
+        #editfrm input {
+            display: block;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="all_bokking" class=" all_bokking" >
+        <h2>All items</h2>
+
+    </div>
+    <section id="editfrm"></section>
+    <script src="cart03.js"></script>
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrician Booking</title>
+    <link rel="icon" href="./assets/lgo1.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="./assets/LOGO.jpeg" alt="" srcset=""></a>
+        </div>
+        <h1>Welcome to DSV SPARK FIXER</h1>
+        <div class="dropdown">
+            <i class="fa-regular fa-circle-user dropbtn" onclick="myFunction()"></i>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="signup_page.html">Sign Up /Login</a>
+                <a href="admin.html">Admin</a>
+                <a href="your_order.html">Your Order</a>
+                <a href="#contact">Contact</a>
+                <a href="#help">Help ?</a>
+                <a href="#logout" onclick="logout()">Logout</a>
+            </div>
+        </div>
+
+
+
+    </header>
+    <nav>
+        <div class="nav">
+            <!-- <div class="logo">
+            <img src="image12\a2.jpg" alt="">
+        </div> -->
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#service-h1">Service</a>
+                </li>
+
+                
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+
+                <li>
+                    <div class="cart-icon" onclick="toggleCart()">
+                        <a href="cart.html"> <i class="fa-solid fa-cart-shopping"></i></a>
+                        <span id="cart-count">0</span>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <div class="hero-section">
+        <div class="hero-heading">
+            <h1>We Provide</h1>
+            <h2>Expert Technician</h2>
+            <h3>for your help</h3><br><br>
+            <h5>Repair and Installation service
+                from the best electrician</h5>
+        </div>
+        <div class="hero-message">
+            <p>Explore</p>
+        </div>
+    </div>
+    <div id="service-h1">
+        <h1>Our Services</h1>
+    </div>
+
+    <div class="service-section">
+        <div class="TV box">
+            <div class="box-content">
+                <h2>TV & Entertainment</h2>
+                <div class="box-img" style="background-image: url('./assets/tv_music.jpg');"></div>
+                <a href="tv-services.html">
+                    <p>see more</p>
+                </a>
+            </div>
+        </div>
+        <div class="Kitchen box">
+            <div class="box-content">
+                <h2>Kitchen Appliance</h2>
+                <div class="box-img" style="background-image: url('./assets/KITCHEN-APPLIANCE.jpg');"></div>
+                <p>see more</p>
+            </div>
+        </div>
+        <div class="AC box">
+            <div class="box-content">
+                <h2>AC Services</h2>
+                <div class="box-img" style="background-image: url('./assets/Cooling-System.jpg');"></div>
+                <p>see more</p>
+            </div>
+        </div>
+        <div class="Laundary box">
+            <div class="box-content">
+                <h2>Washing Machine</h2>
+                <div class="box-img" style="background-image: url('./assets/laundary.webp');"></div>
+                <p>see more</p>
+            </div>
+        </div>
+        <div class="Guyser box">
+            <div class="box-content">
+                <h2>GEYSER Services</h2>
+                <div class="box-img" style="background-image: url('./assets/heating_appliance.jpg');"></div>
+                <p>see more</p>
+            </div>
+        </div>
+        <div class="inverter box">
+            <div class="box-content">
+                <h2>Inverter</h2>
+                <div class="box-img" style="background-image: url('./assets/inverter.jpg');"></div>
+                <p>see more</p>
+            </div>
+        </div>
+        <div class="fan box">
+            <div class="box-content">
+                <h2>Fan Services</h2>
+                <div class="box-img" style="background-image: url('./assets/fan.webp');"></div>
+                <p>see more</p>
+            </div>
+        </div>
+        <div class="lights box">
+            <div class="box-content">
+                <h2>Lights & Bulb</h2>
+                <div class="box-img" style="background-image: url('./assets/lights.jpeg');"></div>
+                <p>see more</p>
+            </div>
+        </div>
+        <div class="Socket box">
+            <div class="box-content">
+                <h2>House Wiring</h2>
+                <div class="box-img" style="background-image: url('./assets/house-wiring.avif');"></div>
+                <p>see more</p>
+            </div>
+        </div>
+        <div class="Music box">
+            <div class="box-content">
+                <h2>Music System</h2>
+                <div class="box-img" style="background-image: url('./assets/music-system.avif');"></div>
+                <p>see more</p>
+            </div>
+        </div>
+        <div class="cctv box">
+            <div class="box-content">
+                <h2>CCTV</h2>
+                <div class="box-img" style="background-image: url('./assets/cctv.avif');"></div>
+                <p>see more</p>
+            </div>
+        </div>
+        <div class="SWITCH box">
+            <div class="box-content">
+                <h2>Switch Board</h2>
+                <div class="box-img" style="background-image: url('./assets/SWITCHBOARD.jpeg');"></div>
+                <p>see more</p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Comapny</h3>
+                <ul>
+                    <li>About us</li>
+                    <li>Careers</li>
+                    <li>Blog</li>
+                    <li>Press</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li>Home Appliance Repair</li>
+                    <li>Electronic Repair</li>
+                    <li>Installation</li>
+                    <li>Uninstallation</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Support</h3>
+                <ul>
+                    <li>Contact us</li>
+                    <li>FAQs</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Service</li>
+                </ul>
+            </div>
+            <div class="footer-section contact-social">
+                <h3>Contact Us</h3>
+                <p><i class="fa-solid fa-phone"></i><a href="tell:+91 6209815873">+91 6209815873</a></p>
+                <p><i class="fa-solid fa-envelope"></i><a
+                        href="mailto:viveksingh6034@gmail.com">viveksingh6034@gmail.com</a></p><br><br>
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/aashu.singh.104203"><i
+                            class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.instagram.com/aashu_singh_180/?hl=en"><i
+                            class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+                </div>
+            </div>
+        </div>
+        <p class="footer-bottom">© 2025 DSVSF Spark Fixer .All rights Reserveed</p>
+    </footer>
+
+
+    <script src="signup_form.js"></script>
+    <script src="pdr.js"></script>
+</body>
+
+</html>

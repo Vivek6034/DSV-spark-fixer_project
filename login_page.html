@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<style>
+    .login-form,
+    label,
+    p {
+        text-align: left;
+        margin-left: 10px;
+        justify-content: space-between;
+        font-weight: bold;
+        
+        font-family: sans-serif;
+    }
+</style>
+
+<body>
+    <div class="login-body">
+        <h1>Plese Login To Continue</h1>
+        <div class="login-form">
+            <!-- <h1>Welcome to my website</h1> -->
+            <h2>Log In</h2>
+            <form id="user-login" action="#" onsubmit=" return logindata()">
+
+                <label for="">Email or Mobile</label>
+                <input type="text" id="ulemail" placeholder="Enter your Email or Mobile no."><br>
+
+                <label for="Password">Password</label>
+                <input type="password" id="ulpasswd" placeholder="Enter your Password"><br>
+
+                <p><a href="#">Forgot Password?</a></p>
+                <input type="submit" value="Login">
+                <p>Create an Account?<a href="signup_page.html"> Sign Up</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="signup_form.js"></script>
+</body>
+
+</html>

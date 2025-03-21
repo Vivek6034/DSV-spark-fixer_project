@@ -1,0 +1,247 @@
+{
+  "orders": [
+    {
+      "id": "5fcb",
+      "name": "shivam",
+      "email": "aashusingh6034@gmail.com",
+      "phone": "06209815873",
+      "address": "47, saran, bihar (81223)",
+      "appliance": "washing machine",
+      "brand": "Lg",
+      "model": "5487236547252145577",
+      "issue": "mobile",
+      "date": "2025-03-28",
+      "time": "10 AM - 12 PM",
+      "payment": "Cash",
+      "cartItems": [
+        {
+          "name": "LED TV Repair",
+          "price": 499,
+          "quantity": 1
+        },
+        {
+          "name": "LED TV Installation",
+          "price": 499,
+          "quantity": 1
+        }
+      ],
+      "totalPrice": "Total: ₹998"
+    },
+    {
+      "id": "dce7",
+      "name": "aashu",
+      "email": "aashusingh6034@gmail.com",
+      "phone": "06209815873",
+      "address": "village- singahi\np.o- mahmmadpur\np.s- manjhi",
+      "appliance": "washing machine",
+      "brand": "Lg",
+      "model": "5487236547252145577",
+      "issue": "dfwrr",
+      "date": "2025-03-17",
+      "time": "10 AM - 12 PM",
+      "payment": "Cash",
+      "cartItems": [
+        {
+          "name": "LED TV Repair",
+          "price": 499,
+          "quantity": 1
+        },
+        {
+          "name": "LED TV Installation",
+          "price": 499,
+          "quantity": 1
+        }
+      ],
+      "totalPrice": "Total: ₹998"
+    },
+    {
+      "id": "8a72",
+      "name": "vikash",
+      "email": "aashusingh6034@gmail.com",
+      "phone": "06209815873",
+      "address": "bhoapl,madhyaparadeshh (462022)",
+      "appliance": "washing machine",
+      "brand": "Lg",
+      "model": "5487236547252145577",
+      "issue": "rgteg",
+      "date": "2025-03-07",
+      "time": "10 AM - 12 PM",
+      "payment": "Cash",
+      "cartItems": [
+        {
+          "name": "LED TV Repair",
+          "price": 499,
+          "quantity": 1
+        },
+        {
+          "name": "LED TV Installation",
+          "price": 499,
+          "quantity": 1
+        }
+      ],
+      "totalPrice": "Total: ₹998"
+    },
+    {
+      "id": "5854",
+      "name": "ravi",
+      "email": "viveksingh6034@gmail.com",
+      "phone": "9608427174",
+      "address": "bhoapl,madhyaparadeshh (462022)",
+      "appliance": "washing machine",
+      "brand": "Lg",
+      "model": "5487236547252145577",
+      "issue": "motor",
+      "date": "2025-03-15",
+      "time": "10 AM - 12 PM",
+      "payment": "Cash",
+      "cartItems": [
+        {
+          "name": "LED TV Repair",
+          "price": 499,
+          "quantity": 1
+        },
+        {
+          "name": "LED TV Installation",
+          "price": 499,
+          "quantity": 1
+        }
+      ],
+      "totalPrice": "Total: ₹998"
+    },
+    {
+      "id": "bb0f",
+      "name": "ayush",
+      "email": "viveksingh6034@gmail.com",
+      "phone": "9608427174",
+      "address": "bhoapl,madhyaparadeshh (462022)",
+      "appliance": "washing machine",
+      "brand": "Lg",
+      "model": "5487236547252145577",
+      "issue": "motor",
+      "date": "2025-03-14",
+      "time": "10 AM - 12 PM",
+      "payment": "Cash",
+      "cartItems": [
+        {
+          "name": "LED TV Repair",
+          "price": 499,
+          "quantity": 1
+        },
+        {
+          "name": "LED TV Installation",
+          "price": 499,
+          "quantity": 1
+        }
+      ],
+      "totalPrice": "Total: ₹998"
+    },
+    {
+      "id": "0102",
+      "name": "ayush",
+      "email": "viveksingh6034@gmail.com",
+      "phone": "9608427174",
+      "address": "55",
+      "appliance": "washing machine",
+      "brand": "Lg",
+      "model": "5487236547252145577",
+      "issue": "jkgjk",
+      "date": "2025-03-29",
+      "time": "10 AM - 12 PM",
+      "payment": "Cash",
+      "cartItems": [
+        {
+          "name": "LED TV Repair",
+          "price": 499,
+          "quantity": 1
+        },
+        {
+          "name": "LED TV Installation",
+          "price": 499,
+          "quantity": 1
+        }
+      ],
+      "totalPrice": "Total: ₹998"
+    },
+    {
+      "id": "ff30",
+      "name": "vivek kumar singh",
+      "email": "viveksingh6034@gmail.com",
+      "phone": "06209815873",
+      "address": "bhoapl,madhyaparadeshh (462022)",
+      "appliance": "Tv",
+      "brand": "Lg",
+      "model": "2525655898946",
+      "issue": "screen",
+      "date": "2025-03-13",
+      "time": "10 AM - 12 PM",
+      "payment": "Cash",
+      "cartItems": [
+        {
+          "name": "LED TV Repair",
+          "price": 499,
+          "quantity": 1
+        },
+        {
+          "name": "LED TV Installation",
+          "price": 499,
+          "quantity": 1
+        }
+      ],
+      "totalPrice": "Total: ₹998"
+    },
+    {
+      "id": "69da",
+      "name": "ramesh",
+      "email": "viveksingh6034@gmail.com",
+      "phone": "06209815873",
+      "address": "bhoapl,madhyaparadeshh (462022)",
+      "appliance": "Tv",
+      "brand": "Lg",
+      "model": "2525655898946",
+      "issue": "spring",
+      "date": "2025-03-22",
+      "time": "10 AM - 12 PM",
+      "payment": "Cash",
+      "cartItems": [
+        {
+          "name": "LED TV Repair",
+          "price": 499,
+          "quantity": 1
+        },
+        {
+          "name": "LED TV Installation",
+          "price": 499,
+          "quantity": 1
+        }
+      ],
+      "totalPrice": "Total: ₹998"
+    },
+    {
+      "id": "ab9f",
+      "name": "aditya",
+      "email": "viveksingh6034@gmail.com",
+      "phone": "7250509495",
+      "address": "bhoapl,madhyaparadeshh (462022)",
+      "appliance": "Tv",
+      "brand": "Lg",
+      "model": "2525655898946",
+      "issue": "screen",
+      "date": "2025-03-14",
+      "time": "10 AM - 12 PM",
+      "payment": "Cash",
+      "cartItems": [
+        {
+          "name": "LED TV Repair",
+          "price": 499,
+          "quantity": 1
+        },
+        {
+          "name": "LED TV UnInsatalltion",
+          "price": 499,
+          "quantity": 1
+        }
+      ],
+      "totalPrice": "Total: ₹998"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<style>
+    .login-form,
+    label,
+    p {
+        text-align: left;
+        margin-left: 10px;
+        justify-content: space-between;
+        font-weight: bold;
+        
+        font-family: sans-serif;
+    }
+   
+    button {
+            background: #28a745;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 100%;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    button:hover {
+            background: #218838;
+        }
+    
+</style>
+
+<body>
+    <div class="login-body">
+        <div class="login-form">
+            <!-- <h1>Welcome to my website</h1> -->
+            <h2>Admin Login</h2>
+
+                <input type="email" id="admin_email" placeholder="Enter Admin Email "required><br>
+
+                <input type="password" id="admin_pwd" placeholder="Enter your Password"><br>
+                <button onclick="Admin_login()">LogIn</button>
+                <p id="error_msg" style="color: red;"></p>
+
+        </div>
+    </div>
+    <script src="signup_form.js"></script>
+</body>
+
+</html>

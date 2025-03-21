@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="./assets/LOGO.jpeg" alt="" srcset=""></a>
+        </div>
+        <h1>Welcome to DSV SPARK FIXER</h1>
+
+        <div class="dropdown">
+            <i class="fa-regular fa-circle-user dropbtn" onclick="myFunction()" ></i>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="signup_page.html">Sign Up /Login</a>
+              <a href="admin.html">Admin</a>
+
+              <a href="your_order.html">Your Order</a>
+              <a href="#contact">Contact</a>
+              <a href="#help">Help ?</a>
+              <a href="#logout" onclick="logout()">Logout</a>
+            </div>
+          </div>
+
+    </header>
+    <nav>
+        <div class="nav">
+            <!-- <div class="logo">
+            <img src="image12\a2.jpg" alt="">
+        </div> -->
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a  href="#service-h1">Service</a>
+                </li>
+
+               
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <div class="cart-icon" onclick="toggleCart()">
+                       <a href="cart.html"> <i class="fa-solid fa-cart-shopping"></i></a>
+                        <span id="cart-count">0</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="main01">
+
+        <div class="main">
+            <h2>TV & Entertainment Service</h2>
+            <div class="product">
+                <div class="img">
+                    <img src="./assets/tv-screen.avif" alt="" style="height: 150px; width: 200px;">
+                </div>
+                <div class="container">
+                    <h4>LED TV Repair - ₹499</h4>
+                    <P style="margin-top: 10px;">TV screen repair fixes cracks, dead pixels, and flickering issues using quality parts .</P>
+                   <p> ensuring clear visuals and restoring your TV’s functionality</p>
+                </div>
+                <button onclick="addToCart('LED TV Repair', 499)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <div class="img">
+                    <img src="./assets/tv-insatallation.avif" alt="" style="height: 150px; width: 200px;">
+                </div>
+                <div class="container">
+                    <h4>LED Tv Installation - ₹499</h4>
+                    <p style="margin-top: 20PX; font-size: 1rem;">Get your TV installed professionally !  Our expert technicians ensure a safe, secure,<br/> 
+                    and hassle-free installation for all types of TVs,<br/> 
+                   <p> including LED, LCD, OLED, and Smart TVs.</p>
+                </div>
+                <button onclick="addToCart('LED TV Installation', 499)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <div class="img">
+                    <img src="./assets/tv-uninsatalltion.avif" alt="" style="height: 150px; width: 200px;">
+                </div>
+                <div class="container">
+                    <h4>LED TV UnInsatalltion - ₹499</h4>
+                    <P style="margin-top: 20PX;">Professional TV uninstallation with safe removal, wire disconnection,<br/> and wall restoration.</P>
+                </div>
+                <button onclick="addToCart('LED TV UnInsatalltion', 499)">Add to Cart</button>
+            </div>
+            
+        </div>
+    </div>
+  <script src="pdr.js"></script>
+  <script src="signup_form.js"></script>
+</body>
+</html>

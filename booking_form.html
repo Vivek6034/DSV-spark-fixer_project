@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="Bform-body">
+        <div class="checkout-container">
+            <div id="cart-summary">
+                <h2>Your Cart</h2>
+                <div id="cart-items" style="color: black;">
+                    <!-- Cart items will be displayed here -->
+                </div>
+                <div id="total-price">
+                    <!-- Total price will be displayed here -->
+                </div>
+            </div>
+
+
+            <div class="Bform">
+                <h2> Book Your Order</h2>
+                <form id="checkout-form" action="" onsubmit="savedata()">
+                    <label for="full name">Full Name</label>
+                    <input type="text" placeholder="Enter your Full Name" id="booking-uname" required>
+
+                    <label for="Contact">Phone Number</label>
+                    <input type="number" placeholder="Mobile Number" id="Contact" required>
+
+                    <label for="email">Email (optional)</label>
+                    <input type="email" name="email" placeholder="Enter your Email" id="booking-uemail">
+
+                    <label for="address">Address:</label>
+                    <textarea id="address" name="address" rows="4"
+                        placeholder="House No. / Area /LandMark / State,(Pin Code)" required></textarea>
+                    
+                        
+                    <label for="Appliance">Appliance Type :</label>
+                    <input type="appliance" name="appliance" id="appliance_type"
+                        placeholder="(e.g.- Washing,Refrigerator,Fan)">
+
+                    <label for="Brand">Brand Name :</label>
+                    <input type="text" name="Brand" id="Brand" placeholder="Brand Name">
+
+                    <label for="model">Model Number :</label>
+                    <input type="text" name="model" id="model_no" placeholder="Model Number">
+
+                    <label for="issue">Issue Discription</label>
+                    <textarea name="issue" id="issue" placeholder="Describe your Issue"></textarea>
+
+                    <label for="date">Prefered Service Date</label>
+                    <input type="date" id="date" name="date" required>
+
+                    <label for="Time">Preferred Time Slot </label>
+                    <select id="time" name="time" required>
+                        <option value="10 AM - 12 PM">10 AM - 12 PM</option>
+                        <option value="12 PM - 2 PM">12 PM - 2 PM</option>
+                        <option value="2 PM - 4 PM">2 PM - 4 PM</option>
+                        <option value="4 PM - 6 PM">4 PM - 6 PM</option>
+                    </select>
+
+                    <label for="payment">Payment Method</label>
+                    <select id="payment" name="payment" required>
+                        <option value="Cash">Cash on Service Completion</option>
+                        <option value="Online">UPI/Online Payment</option>
+                    </select>
+
+                    <button type="submit" class="submit-btn">Submit Booking</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <script src="cart03.js"></script>
+</body>
+
+</html>
