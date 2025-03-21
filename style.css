@@ -262,8 +262,8 @@ input[type="submit"]:hover {
     color: white;
     margin-left: 200px;
     align-items: center;
-    width: 380px;
-    margin: 20px;
+    width: 370px;
+    margin: 15px;
 }
 
 .cart-item {
